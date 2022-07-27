@@ -10,8 +10,8 @@ from model import DSC_stereo_compression
 
 # Train parameters:
 # paths to KITTI dataset folder
-stereo_dir_2012 = '/home/access/disk/dev/data_sets/kitti/Sharons datasets/data_stereo_flow_multiview'
-stereo_dir_2015 = '/home/access/disk/dev/data_sets/kitti/Sharons datasets/data_scene_flow_multiview'
+stereo_dir_2012 = os.path.join('datasets', 'data_stereo_flow_multiview')
+stereo_dir_2015 = os.path.join('datasets', 'data_scene_flow_multiview')
 
 
 batch_size = 2

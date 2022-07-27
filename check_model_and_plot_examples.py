@@ -24,8 +24,8 @@ model.eval()
 
 #Load test dataset
 # should be paths to KITTI dataset folder
-stereo_dir_2012 = '/home/access/disk/dev/data_sets/kitti/Sharons datasets/data_stereo_flow_multiview'
-stereo_dir_2015 = '/home/access/disk/dev/data_sets/kitti/Sharons datasets/data_scene_flow_multiview'
+stereo_dir_2012 = os.path.join('datasets', 'data_stereo_flow_multiview')
+stereo_dir_2015 = os.path.join('datasets', 'data_scene_flow_multiview')
 val_data = StereoDataset_new(stereo_dir_2012, stereo_dir_2015, isTrainingData=False)
 val_dataloader = DataLoader(val_data, batch_size=1)
 
