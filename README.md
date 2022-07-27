@@ -29,11 +29,14 @@ image, to recover the right image. The system achieves state of the art results 
 
 
 ### Dataset
-For training and testing were performed over *KITTI* dataset, please download files and place them in the main folder (or choose the appropriate path within the code). 
+For training and testing over *KITTI* dataset, please download files and place them in the main folder (or choose the appropriate path within the code). 
 [KITTI 2012](http://www.cvlibs.net/download.php?file=data_stereo_flow_multiview.zip) and [KITTI 2015](http://www.cvlibs.net/download.php?file=data_scene_flow_multiview.zip).
 
 It is best to run the program using your favorite IDE. 
 There may be a need to modify the scripts (mainly choosing paths).
+
+### Conda Env set up
+conda env create -f environment.yml
 
 ### Weights
 Pre-trained model for our hardest compression point - 0.031 bit per pixel is available here (will be added)
