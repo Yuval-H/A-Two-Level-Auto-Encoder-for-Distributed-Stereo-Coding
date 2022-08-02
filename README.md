@@ -1,11 +1,13 @@
 # A-Two-Level-Auto-Encoder-for-Distributed-Stereo-Coding
 
-This is the implementation for the article "A Two-Level Auto-Encoder for Distributed Stereo Coding" (Yuval Harel and Shai Avidan, 2022)
+This is the implementation for the article "A Two-Level Auto-Encoder for Distributed Stereo Coding" (Yuval Harel and Shai Avidan, 2022). Published at the ICCP 2022 conference.
 
 
--- link to the paper will be added --
+https://iccp2022.iccp-conference.org/program/
 
 We propose a new technique for stereo image compression that is based on Distributed Source Coding (DSC).
+
+(This is a starter repo that can be used by anyone interested in our paper. In the coming weeks we will upload a more organized code and our final network weights).
 
 ![Teaser](https://user-images.githubusercontent.com/76810287/181239690-dce1a22b-58f4-4780-9d8b-62d8eebda3e9.png)
 
